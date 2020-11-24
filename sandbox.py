@@ -41,16 +41,38 @@
 
 # while = 5
 
-def area_of_circ():
+# def area_circ():
     
-    pi = 3.14159
+#     pi = 3.14159
     
-    radius = int(input('What\'s the radius of your circle, please?\n>>> '))
+#     radius = float(input('What\'s the radius of your circle, please?\n>>> '))
     
-    area = radius * pi**2
+#     area = pi * radius**2
     
-    return print('The area of your circle is approximately:', area, 'units.')
+#     return print('You entered:', radius, '\nThe area of your circle is approximately:', area, 'units.')
 
-area_of_circ()
+# area_circ()
     
+''' Convert Fahrenheit to Celsius '''
+
+# def conv_F2C():
     
+#     Fahrenheit_input = float(input("What's the Fahrenheit temperature, please?\n>>>"))
+    
+#     Celsius_output = (Fahrenheit_input - 30) / 2
+    
+#     print("You enetered:", Fahrenheit_input, '\n', Fahrenheit_input, 'degrees in Fahrenheit is', Celsius_output, 
+#           'degrees in Celsius.')
+
+# conv_F2C()    
+
+def conv_F2C_exact():
+    
+    Fahrenheit_input = float(input("What's the Fahrenheit temperature, please?\n>>> "))
+    
+    Celsius_output = round(((Fahrenheit_input - 32) * 5/9) ,2)
+    
+    print("You entered:", Fahrenheit_input, '\nSo then,', Fahrenheit_input, 'degrees in Fahrenheit is', Celsius_output, 
+          'degrees in Celsius.')
+
+conv_F2C_exact()    
