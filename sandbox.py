@@ -66,13 +66,25 @@
 
 # conv_F2C()    
 
-def conv_F2C_exact():
+# def conv_F2C_exact():
     
-    Fahrenheit_input = float(input("What's the Fahrenheit temperature, please?\n>>> "))
+#     Fahrenheit_input = float(input("What's the Fahrenheit temperature, please?\n>>> "))
     
-    Celsius_output = round(((Fahrenheit_input - 32) * 5/9) ,2)
+#     Celsius_output = round(((Fahrenheit_input - 32) * 5/9), 2)
     
-    print("You entered:", Fahrenheit_input, '\nSo then,', Fahrenheit_input, 'degrees in Fahrenheit is', Celsius_output, 
-          'degrees in Celsius.')
+#     print("You entered:", Fahrenheit_input, '\nSo then,', Fahrenheit_input, 'degrees in Fahrenheit is', Celsius_output, 
+#           'degrees in Celsius.')
 
-conv_F2C_exact()    
+# conv_F2C_exact()    
+
+def sum_num():
+
+    num_1 = int(input('Please enter the first number: '))
+    
+    num_2 = int(input('Please enter the second number: '))
+    
+    sum_tot = num_1 + num_2
+    
+    print('The sum of', str(num_1), '+', str(num_2), '=', str(sum_tot), '\nThanks for playing, my Good Man!')
+    
+sum_num()
