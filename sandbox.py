@@ -2,3 +2,15 @@
 
 
 print('Hello world!')
+
+x = 5
+
+y = 12
+
+z = x + y 
+
+print(z)
+
+new_variable = 13
+
+z = x - y
