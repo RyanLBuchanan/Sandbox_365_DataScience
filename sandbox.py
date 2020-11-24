@@ -14,3 +14,13 @@ print(z)
 new_variable = 13
 
 z = x - y
+
+a, b, c = 2.5, 3.14159, 1
+
+c = b * a**2
+
+radius = 2.5
+
+pi = 3.14159
+
+area = pi * radius**2
