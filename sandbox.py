@@ -85,6 +85,6 @@ def sum_num():
     
     sum_tot = num_1 + num_2
     
-    print('The sum of', str(num_1), '+', str(num_2), '=', str(sum_tot), '\nThanks for playing, my Good Man!')
+    print('The sum of ' + str(num_1) + ' + ' + str(num_2), ' = ' + str(sum_tot) + '\nThanks for playing, my Good Man!')
     
 sum_num()
