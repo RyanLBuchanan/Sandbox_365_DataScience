@@ -41,4 +41,16 @@
 
 # while = 5
 
+def area_of_circ():
+    
+    pi = 3.14159
+    
+    radius = int(input('What\'s the radius of your circle, please?\n>>> '))
+    
+    area = radius * pi**2
+    
+    return print('The area of your circle is approximately:', area, 'units.')
 
+area_of_circ()
+    
+    
