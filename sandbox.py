@@ -99,7 +99,11 @@
 var_1 = 7
 var_2 = 7
 
-print('var_1 = ', va)
+print('var_1 = ', var_1, 'var_2 = ', var_2)
+print('Check equality with \'==\':', var_1 == var_2)
+print('Check not equal with \'!=\':', var_1 != var_2)
+print('Check less than or equal with \'<=\':', var_1 <= var_2)
+print('Check greater than or equal with \'>=\':', var_1 >= var_2)
 
 
 
