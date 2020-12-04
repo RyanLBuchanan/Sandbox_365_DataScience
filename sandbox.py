@@ -89,11 +89,17 @@
 #
 # sum_num()
 
-x = 5
-y = 6
+# x = 5
+# y = 6
+#
+# print('x = ', x, 'y = ', y)
+# print('Checking less than with \'<\':', x < y)
+# print('Checking greater than with \'>\':', x > y)
 
-print('x = ', x, 'y = ', y)
-print('Checking less than with \'<\':', x < y)
+var_1 = 7
+var_2 = 7
+
+print('var_1 = ', va)
 
 
 
