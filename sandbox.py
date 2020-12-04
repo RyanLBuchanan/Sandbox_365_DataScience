@@ -77,14 +77,16 @@
 
 # conv_F2C_exact()    
 
-def sum_num():
+# def sum_num():
+#
+#     num_1 = int(input('Please enter the first number: '))
+#
+#     num_2 = int(input('Please enter the second number: '))
+#
+#     sum_tot = num_1 + num_2
+#
+#     print('The sum of ' + str(num_1) + ' + ' + str(num_2), ' = ' + str(sum_tot) + '\nThanks for playing, my Good Man!')
+#
+# sum_num()
 
-    num_1 = int(input('Please enter the first number: '))
-    
-    num_2 = int(input('Please enter the second number: '))
-    
-    sum_tot = num_1 + num_2
-    
-    print('The sum of ' + str(num_1) + ' + ' + str(num_2), ' = ' + str(sum_tot) + '\nThanks for playing, my Good Man!')
-    
-sum_num()
+
