@@ -96,14 +96,22 @@
 # print('Checking less than with \'<\':', x < y)
 # print('Checking greater than with \'>\':', x > y)
 
-var_1 = 7
-var_2 = 7
+# var_1 = 7
+# var_2 = 7
+#
+# print('var_1 = ', var_1, 'var_2 = ', var_2)
+# print('Check equality with \'==\':', var_1 == var_2)
+# print('Check not equal with \'!=\':', var_1 != var_2)
+# print('Check less than or equal with \'<=\':', var_1 <= var_2)
+# print('Check greater than or equal with \'>=\':', var_1 >= var_2)
 
-print('var_1 = ', var_1, 'var_2 = ', var_2)
-print('Check equality with \'==\':', var_1 == var_2)
-print('Check not equal with \'!=\':', var_1 != var_2)
-print('Check less than or equal with \'<=\':', var_1 <= var_2)
-print('Check greater than or equal with \'>=\':', var_1 >= var_2)
+var_3, var_4, var_5 = 15, 20, 25
 
+print(var_3, var_4, var_5)
 
+print(not(var_3 <100 and var_5 < 100))
+
+print(not(var_3 < 22 and var_5 < 22))
+
+print(not(var_3 < 22 or var_5 < 22))
 
