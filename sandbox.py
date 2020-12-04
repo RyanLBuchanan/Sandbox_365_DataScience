@@ -104,14 +104,32 @@
 # print('Check not equal with \'!=\':', var_1 != var_2)
 # print('Check less than or equal with \'<=\':', var_1 <= var_2)
 # print('Check greater than or equal with \'>=\':', var_1 >= var_2)
+#
+# var_3, var_4, var_5 = 15, 20, 25
+#
+# print(var_3, var_4, var_5)
+#
+# print(not(var_3 <100 and var_5 < 100))
+#
+# print(not(var_3 < 22 and var_5 < 22))
+#
+# print(not(var_3 < 22 or var_5 < 22))
 
-var_3, var_4, var_5 = 15, 20, 25
+# some_condition = True
+#
+# if some_condition:
+#     print('The variable \'some_condition\' is True')
+# else:
+#     print('The variable \'some_condition\' is False')
+#
 
-print(var_3, var_4, var_5)
+temp = int(input('Please enter the temoerature in Celsius. \nAn integer between 0-40:  '))
 
-print(not(var_3 <100 and var_5 < 100))
-
-print(not(var_3 < 22 and var_5 < 22))
-
-print(not(var_3 < 22 or var_5 < 22))
-
+if temp > 30:
+    print('Wear your dainty Brit short pants.')
+elif temp <= 30 and temp > 20:
+    print('Keep a fleece with ya just in case.')
+elif temp <= 20 and temp > 10:
+    print('Better bring a jacket, then.')
+else:
+    print('Right, then . . . let\'s just stay in, shall we?')
