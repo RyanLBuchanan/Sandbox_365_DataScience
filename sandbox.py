@@ -137,3 +137,11 @@
 my_string = 'Python'
 
 letter = my_string[3]
+
+my_string.upper()
+
+print(my_string.upper())
+
+print(my_string.lower())
+
+
