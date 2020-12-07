@@ -134,14 +134,32 @@
 # else:
 #     print('Right, then . . . let\'s just stay in, shall we?')
 
-my_string = 'Python'
+# my_string = 'Python'
 
-letter = my_string[3]
+# letter = my_string[3]
 
-my_string.upper()
+# my_string.upper()
 
-print(my_string.upper())
+# print(my_string.upper())
 
-print(my_string.lower())
+# print(my_string.lower())
+
+word = 'summer'
+
+gues = input('I\'m thinking of a word, can you guess what it is?  Hint \it\'s a season.>>> ')
+
+guess = guess.lower()
+
+if guess == 'Summer':
+    print('Yes, it is Summer -> Nice!')
+elif guess == 'Winter':
+    print('No, it is not Winter -> Nope!')
+elif guess == 'Autumn': 
+    print('No, it is not Autumn -> Nope!')
+elif guess == 'Fall': 
+    print('No, it is not Fall -> Nope!')
+elif guess == 'Spring': 
+    print('No, it is not Spring -> Nope!')
+    
 
 
