@@ -135,3 +135,5 @@
 #     print('Right, then . . . let\'s just stay in, shall we?')
 
 my_string = 'Python'
+
+letter = my_string[3]
