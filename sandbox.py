@@ -146,20 +146,21 @@
 
 word = 'summer'
 
-gues = input('I\'m thinking of a word, can you guess what it is?  Hint \it\'s a season.>>> ')
+guess = input('I\'m thinking of a word, can you guess what it is?  *Hint:  it\'s a season.>>> ')
 
 guess = guess.lower()
 
-if guess == 'Summer':
+if guess == 'summer':
     print('Yes, it is Summer -> Nice!')
-elif guess == 'Winter':
+elif guess == 'winter':
     print('No, it is not Winter -> Nope!')
-elif guess == 'Autumn': 
+elif guess == 'autumn': 
     print('No, it is not Autumn -> Nope!')
-elif guess == 'Fall': 
+elif guess == 'fall': 
     print('No, it is not Fall -> Nope!')
-elif guess == 'Spring': 
+elif guess == 'spring': 
     print('No, it is not Spring -> Nope!')
+else: print(guess.capitalize(), 'is not a season, Silly Monkey!')
     
 
 
