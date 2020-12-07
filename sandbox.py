@@ -123,13 +123,15 @@
 #     print('The variable \'some_condition\' is False')
 #
 
-temp = int(input('Please enter the temoerature in Celsius. \nAn integer between 0-40:  '))
+# temp = int(input('Please enter the temoerature in Celsius. \nAn integer between 0-40:  '))
+#
+# if temp > 30:
+#     print('Wear your dainty Brit short pants.')
+# elif temp <= 30 and temp > 20:
+#     print('Keep a fleece with ya just in case.')
+# elif temp <= 20 and temp > 10:
+#     print('Better bring a jacket, then.')
+# else:
+#     print('Right, then . . . let\'s just stay in, shall we?')
 
-if temp > 30:
-    print('Wear your dainty Brit short pants.')
-elif temp <= 30 and temp > 20:
-    print('Keep a fleece with ya just in case.')
-elif temp <= 20 and temp > 10:
-    print('Better bring a jacket, then.')
-else:
-    print('Right, then . . . let\'s just stay in, shall we?')
+my_string = 'Python'
