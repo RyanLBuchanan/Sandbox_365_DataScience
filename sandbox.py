@@ -178,5 +178,13 @@
 # for i in range(0, 101, 4):
 #     print(i)
 
-for i in range(100, 0, -4):
-    print(i)
+# for i in range(100, 0, -4):
+#     print(i)
+
+word = 'Alita'
+
+# for i in word:
+#     print(i)
+
+for char in word:
+    print(char)
