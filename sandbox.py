@@ -144,23 +144,26 @@
 
 # print(my_string.lower())
 
-word = 'summer'
-
-guess = input('I\'m thinking of a word, can you guess what it is?  *Hint:  it\'s a season.>>> ')
-
-guess = guess.lower()
-
-if guess == 'summer':
-    print('Yes, it is Summer -> Nice!')
-elif guess == 'winter':
-    print('No, it is not Winter -> Nope!')
-elif guess == 'autumn': 
-    print('No, it is not Autumn -> Nope!')
-elif guess == 'fall': 
-    print('No, it is not Fall -> Nope!')
-elif guess == 'spring': 
-    print('No, it is not Spring -> Nope!')
-else: print(guess.capitalize(), 'is not a season, Silly Monkey!')
+# word = 'summer'
+#
+# guess = input('I\'m thinking of a word, can you guess what it is?  *Hint:  it\'s a season.>>> ')
+#
+# guess = guess.lower()
+#
+# if guess == 'summer':
+#     print('Yes, it is Summer -> Nice!')
+# elif guess == 'winter':
+#     print('No, it is not Winter -> Nope!')
+# elif guess == 'autumn':
+#     print('No, it is not Autumn -> Nope!')
+# elif guess == 'fall':
+#     print('No, it is not Fall -> Nope!')
+# elif guess == 'spring':
+#     print('No, it is not Spring -> Nope!')
+# else: print(guess.capitalize(), 'is not a season, Silly Monkey!')
     
 
+""" FOr Loops"""
 
+for i in range(10):
+    print(i)
